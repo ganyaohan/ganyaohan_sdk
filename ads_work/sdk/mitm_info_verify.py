@@ -11,7 +11,6 @@ import xlsxwriter
 1.核对一个广告的show、open、closed顺序
 2.核对观看广告的ID，大概有和玩家相关的advertisingId,adjustId,userId,和广告相关的adUnitId,creativeId,adunit
 https://ads-bi-beta.zenkube
-待解决：
 
 '''
 

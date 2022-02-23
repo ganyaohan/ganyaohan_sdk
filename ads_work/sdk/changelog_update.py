@@ -16,7 +16,6 @@ class SDKupdate:
         txt_count = len(self.list)
         n = index  # index 打点
         count = -1  # 位数打点
-        str = ''
         for i in self.channel:
             count += 1  # 起始为0
             while index < txt_count:
