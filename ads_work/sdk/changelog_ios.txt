@@ -1,0 +1,1374 @@
+4.6.0 [2022-1-5]
+客户端支持gzip.
+4.5.0 [2021-12-27]
+SDK Update:
+AppLovinMediationByteDanceAdapter Updated: 4.2.0.2.1 => 4.2.0.2.2
+AppLovinMediationGoogleAdapter Updated: 8.13.0.2 => 8.13.0.3
+AppLovinMediationGoogleAdManagerAdapter Updated: 8.13.0.1 => 8.13.0.2
+AppLovinMediationMintegralAdapter Updated: 7.0.4.0.0 => 7.0.4.0.1
+AppLovinMediationByteDanceAdapter Updated: 4.2.0.2.0 => 4.2.0.2.1
+AppLovinMediationFacebookAdapter Updated: 6.9.0.1 => 6.9.0.2
+Ads-Global/BUAdSDK Updated: 4.1.0.2 => 4.2.0.2
+Ads-Global/BUFoundation Updated: 4.1.0.2 => 4.2.0.2
+Ads-Global/Domestic Updated: 4.1.0.2 => 4.2.0.2
+Ads-Global/International Updated: 4.1.0.2 => 4.2.0.2
+AppLovinMediationByteDanceAdapter Updated: 4.1.0.2.1 => 4.2.0.2.0
+AppLovinMediationVerizonAdsAdapter Updated: 1.14.1.2 => 1.14.2.0
+Verizon-Ads-Core Updated: 2.8.1 => 2.8.2
+Verizon-Ads-StandardEdition Updated: 1.14.1 => 1.14.2
+Verizon-Ads-VASTController Updated: 1.10.0 => 1.10.1
+AppLovinMediationAmazonPublisherServicesAdapter Updated: 4.2.1.1 => 4.2.1.2
+AppLovinMediationIronSourceAdapter Updated: 7.1.12.0.0 => 7.1.13.0.0
+IronSourceSDK Updated: 7.1.12.0 => 7.1.13.0
+AppLovinMediationUnityAdsAdapter Updated: 3.7.5.1 => 4.0.0.0
+UnityAds Updated: 3.7.5 => 4.0.0
+ZenSDK 4.4.0 [2021-12-23]
+ZenCore: 新增 sdk_config 调试查看功能，可看到当前 ZenSDK config 的状态 （基于通用的 Json Viewer）
+ZenAd: 调整 banner safe area bottom padding 的获取方式，不再依据是否 iPhoneX 设备获取，而是依据 ios 11以上的 safearea bottom padding值获取(修复ipad mini 6 上的错误，无法判定为 iPhoneX 以及 bottom padding 为20，不同于 iPhoneX 设备的34)
+ZenSDK 4.3.4 [2021-12-21]
+Bug Fix: tracking 模块配置读取向前兼容，在不支持sdkconfig的项目中，读取trackingconfig.json文件
+ZenSDK 4.3.3 [2021-12-15]
+Bug Fix: ad模块验证修改.
+Bug Fix: Pushconfig读取修复.
+Bug Fix: 配置拉取默认返回值错误修复.
+ZenSDK 4.3.2 [2021-12-13]
+新增 ZenCore Unity 接口方法，ZENCoreShowUserConsentPromptWithCallback，传递 Callback 给调用者。
+ALSDK 初始化时的 bi event al_init_completed，和 Notification K_ZENTK_ALSDK_INITIALIZED 中，添加新参数 oriConsentDialogState, oriAppTrackingTransparencyStatus，用于描述AL SDK 初始化前的状态，与AL SDK 初始化完成后的状态对比即可知 AL 初始化过程中是否对 consent 和 Tracking 权限状态做了修改。
+SDK Update:
+AppLovinMediationVerizonAdsAdapter Updated: 1.14.1.1 => 1.14.1.2
+AppLovinMediationFyberAdapter Updated: 8.1.0.0 => 8.1.1.0
+AppLovinMediationVungleAdapter Updated: 6.10.5.0 => 6.10.5.1
+FyberMarketplaceSDK Updated: 8.1.0 => 8.1.1
+FyberMarketplaceSDK/IASDKCore Updated: 8.1.0 => 8.1.1
+AppLovinMediationChartboostAdapter Updated: 8.5.0.1 => 8.5.0.2
+AppLovinMediationGoogleAdapter Updated: 8.13.0.1 => 8.13.0.2
+AppLovinMediationGoogleAdManagerAdapter Updated: 8.13.0.0 => 8.13.0.1
+AppLovinMediationInMobiAdapter Updated: 10.0.1.0 => 10.0.1.1
+ChartboostSDK Updated: 8.5.0 => 8.5.0.1
+AppLovinMediationByteDanceAdapter Updated: 4.1.0.2.0 => 4.1.0.2.1
+AppLovinMediationChartboostAdapter Updated: 8.5.0.0 => 8.5.0.1
+AppLovinMediationFacebookAdapter Updated: 6.9.0.0 => 6.9.0.1
+AppLovinMediationSmaatoAdapter Updated: 21.6.19.0 => 21.6.19.1
+AppLovinMediationVerizonAdsAdapter Updated: 1.14.1.0 => 1.14.1.1
+AppLovinMediationVungleAdapter Updated: 6.10.4.0 => 6.10.5.0
+VungleSDK-iOS Updated: 6.10.4 => 6.10.5
+AppLovinMediationFacebookAdapter Updated: 6.6.0.2 => 6.9.0.0
+FBAudienceNetwork Updated: 6.6.0 => 6.9.0
+AppLovinMediationInMobiAdapter Updated: 9.2.1.1 => 10.0.1.0
+AppLovinMediationMintegralAdapter Updated: 7.0.2.0.0 => 7.0.4.0.0
+InMobiSDK/Core Updated: 9.2.1 => 10.0.1
+MintegralAdSDK/BannerAd Updated: 7.0.2.0 => 7.0.4.0
+MintegralAdSDK/BidInterstitialVideoAd Updated: 7.0.2.0 => 7.0.4.0
+MintegralAdSDK/BidNativeAd Updated: 7.0.2.0 => 7.0.4.0
+MintegralAdSDK/BidRewardVideoAd Updated: 7.0.2.0 => 7.0.4.0
+MintegralAdSDK/InterActiveAd Updated: 7.0.2.0 => 7.0.4.0
+MintegralAdSDK/InterstitialVideoAd Updated: 7.0.2.0 => 7.0.4.0
+MintegralAdSDK/NativeAd Updated: 7.0.2.0 => 7.0.4.0
+MintegralAdSDK/RewardVideoAd Updated: 7.0.2.0 => 7.0.4.0
+ZenSDK 4.2.0 [2021-12-10]
+ZenCore，增加接口支持 Unity 监听 iOSNotification
+ZenSDK 4.1.1 [2021-12-9]
+接口调整，使用 ZenApp initSDK:(BOOL) 对SDK做整体性初始化，无需再挨个调用各个子模块的初始化
+UnityWrapper 也做了对应调整 （各子模块的独立初始化函数被移除，仅保留设置回调的接口）
+ALSDK 初始化时发送 al_init_completed 事件到 SDK BI Server 详情参考
+ZenSDK 4.0.0 [2021-12-8]
+增加了ZENConfig的配置和下载功能.
+重构了各模块初始化接口去掉了配置文件路径参数, 改由配置控制, 代码中也做了兼容. 对于 Unity 项目生成的 proj.ios 工程，需在info.plist配置 ZENSDKCONFIGBASEPATH: "Data/Raw", (Unity project needs, Optional)
+去掉了test_device.json文件, 测试设备统一由控制台添加.
+增加了ZenCore模块配置, 通过ZENCoreConfig访问.
+Singleton统一使用Core库中的类.
+一些测试UI改动.
+ZenSDK 3.18.0 [2021-12-6]
+ZenApp 移除 didFinishLaunchingWithOptions 的 callback， 使用 UIApplicationDidFinishLaunchingNotification 消息实现
+ZenSDK 3.17.9 [2021-12-2]
+SDK Update
+AppLovinMediationAmazonPublisherServicesAdapter Updated: 4.2.1.0 => 4.2.1.1
+AppLovinMediationFyberAdapter Updated: 7.8.3.2 => 8.1.0.0
+FyberMarketplaceSDK Updated: 7.8.1 => 8.1.0
+FyberMarketplaceSDK/IASDKCore Updated: 7.8.1 => 8.1.0
+FyberMarketplaceSDK/IASDKMRAID Removed
+FyberMarketplaceSDK/IASDKVideo Removed
+修复一个 AdTracker 空参数导致的崩溃问题
+修复 Applovin 在 load 函数中初始化导致的启动卡死问题
+所有的 Partner 在 ad thread 上初始化
+ZenSDK 3.17.5 [2021-11-23]
+加回 Amazon Ad Adapters
+Adjust Tracking Provider C#导出函数类名修改
+修复若干ZenAd线程的bug
+SDK Upodate
+AppLovinMediationGoogleAdapter Updated: 8.12.0.1 => 8.13.0.1
+Google-Mobile-Ads-SDK Updated: 8.12.0 => 8.13.0
+Ads-Global/BUAdSDK Updated: 4.0.0.5 => 4.1.0.2
+Ads-Global/BUFoundation Updated: 4.0.0.5 => 4.1.0.2
+Ads-Global/Domestic Updated: 4.0.0.5 => 4.1.0.2
+Ads-Global/International Updated: 4.0.0.5 => 4.1.0.2
+AppLovinMediationByteDanceAdapter Updated: 4.0.0.5.0 => 4.1.0.2.0
+ZenSDK 对依赖的 FBSDK 最低版本要求升级到 11.0.1
+ZenAd 可拉取全部的配置列表
+ZenSDK 3.17.0 [2021-11-16]
+重构 ZenAd 中的线程逻辑，所有 Ad Logic 执行于Ad专属线程，不再占用UI线程
+SDK Update:
+AppLovinSDK Updated: 10.3.6 => 10.3.7
+ZenSDK 3.16.3 [2021-11-16]
+新增 AppLovinMediationGoogleAdManagerAdapter => 8.12.0.0 项目info.plist中需要GADIsAdManagerAppkey值为YES.
+SDK Update
+BUAdSDK Updated: 4.0.0.1 => 4.0.0.5
+AppLovinMediationByteDanceAdapter Updated: 4.0.0.1.0 => 4.0.0.5.0
+Chartboost Updated: 8.4.2 => 8.5.0
+AppLovinMediationChartboostAdapter Updated: 8.4.2.0 => 8.5.0.0
+IronSourceSDK Updated: 7.1.11.1 => 7.1.12.0
+AppLovinMediationIronSourceAdapter Updated: 7.1.11.1.0 => 7.1.12.0.0
+smaato-ios-sdk Updated: 21.6.16 => 21.6.19
+AppLovinMediationSmaatoAdapter Updated: 21.6.17.1 => 21.6.19.0
+VungleSDK-iOS Updated: 6.10.3 => 6.10.4
+AppLovinMediationVungleAdapter Updated: 6.10.3.0 => 6.10.4.0
+ZenAd BI, revenue_paid 事件中的参数dailyRevenue重命名为dailyRevenueBefore，表示当前事件发生时，之前累加的user 当日ad ltv值
+ZenTracking, user ad ltv 总是应该被更新，不论是否存在 user ltv statistic 配置
+ZenSDK 3.15.5
+从这个版本开始，需要使用 XCode 12.5 或以上版本编译构建
+功能，记录用户看广告产生的累积 User LTV 数据，支持 Taichi 项目中的 UAC2.5， UAC3.0 所需事件，支持当日UserLTVStatistics的本地缓存
+删除多余的bytedance appopen adopened调用.
+SDK Update
+AdColony Updated: 4.6.0 => 4.7.2
+Protobuf Updated: 3.18.1 => 3.19.1
+AppLovinMediationAdColonyAdapter Updated: 4.6.1.0.2 => 4.7.2.0.0
+AppLovinMediationGoogleAdapter Updated: 8.11.0.1 => 8.12.0.1
+AppLovinMediationInMobiAdapter Updated: 9.2.1.0 => 9.2.1.1
+AppLovinMediationIronSourceAdapter Updated: 7.1.11.0.0 => 7.1.11.1.0
+AppLovinMediationSmaatoAdapter Updated: 21.6.17.0 => 21.6.17.1
+AppLovinMediationNendAdapter Updated: 7.0.6.0 => 7.1.0.0
+AppLovinMediationMintegralAdapter Updated: 6.9.4.0.0 => 7.0.2.0.0
+NendSDK_iOS Updated: 7.0.6 => 7.1.0
+MintegralAdSDK/BannerAd Updated: 6.9.4.0 => 7.0.2.0
+MintegralAdSDK/BidInterstitialVideoAd Updated: 6.9.4.0 => 7.0.2.0
+MintegralAdSDK/BidNativeAd Updated: 6.9.4.0 => 7.0.2.0
+MintegralAdSDK/BidRewardVideoAd Updated: 6.9.4.0 => 7.0.2.0
+MintegralAdSDK/InterActiveAd Updated: 6.9.4.0 => 7.0.2.0
+MintegralAdSDK/InterstitialVideoAd Ver: 7.0.2.0 Added
+MintegralAdSDK/NativeAd Updated: 6.9.4.0 => 7.0.2.0
+MintegralAdSDK/RewardVideoAd Ver: 7.0.2.0 Added
+Google-Mobile-Ads-SDK Updated: 8.11.0 => 8.12.0
+IronSourceSDK Updated: 7.1.11.0 => 7.1.11.1
+smaato-ios-sdk Updated: 21.6.17 => 21.6.16
+smaato-ios-sdk/Banner Updated: 21.6.17 => 21.6.16
+smaato-ios-sdk/Full Updated: 21.6.17 => 21.6.16
+smaato-ios-sdk/InApp Updated: 21.6.17 => 21.6.16
+smaato-ios-sdk/Interstitial Updated: 21.6.17 => 21.6.16
+smaato-ios-sdk/Modules/Banner Updated: 21.6.17 => 21.6.16
+smaato-ios-sdk/Modules/Core Updated: 21.6.17 => 21.6.16
+smaato-ios-sdk/Modules/Interstitial Updated: 21.6.17 => 21.6.16
+smaato-ios-sdk/Modules/Native Updated: 21.6.17 => 21.6.16
+smaato-ios-sdk/Modules/OpenMeasurement Updated: 21.6.17 => 21.6.16
+smaato-ios-sdk/Modules/Outstream Updated: 21.6.17 => 21.6.16
+smaato-ios-sdk/Modules/RewardedAds Updated: 21.6.17 => 21.6.16
+smaato-ios-sdk/Modules/RichMedia Updated: 21.6.17 => 21.6.16
+smaato-ios-sdk/Modules/Video Updated: 21.6.17 => 21.6.16
+smaato-ios-sdk/Native Updated: 21.6.17 => 21.6.16
+smaato-ios-sdk/Outstream Updated: 21.6.17 => 21.6.16
+smaato-ios-sdk/RewardedAds Updated: 21.6.17 => 21.6.16
+Bug fix
+ZenSDK 3.14.1
+SDK Update
+AppLovinMediationByteDanceAdapter Updated: 3.9.0.4.2 => 4.0.0.1.0
+Ads-Global/BUAdSDK Updated: 3.9.0.4 => 4.0.0.1
+Ads-Global/BUFoundation Updated: 3.9.0.4 => 4.0.0.1
+Ads-Global/Domestic Updated: 3.9.0.4 => 4.0.0.1
+Ads-Global/International Updated: 3.9.0.4 => 4.0.0.1
+ZenSDK 3.13.0
+适配 XCode 13
+采用 xcframework 格式输出库
+ZenSDK 3.12.16
+将打包的 framework 升级到 xcframework
+ZenSDK 3.12.15
+ZenCore: [ZENDeviceUtil isIPhoneX] 判断，支持 iPhone 13
+ZenSDK 3.12.14
+SDK Update
+AppLovinMediationByteDanceAdapter Updated: 3.9.0.4.1 => 3.9.0.4.2
+AppLovinMediationGoogleAdapter Updated: 8.11.0.0 => 8.11.0.1
+Protobuf Updated: 3.18.0 => 3.18.1
+AppLovinSDK Updated: 10.3.5 => 10.3.6
+ZenSDK 3.12.13
+调整ad debug view, config页面增加mediation操作.
+ZenSDK 3.12.11
+FIX: Tracking HTTP 中的时间戳 timeIntervalSince1970 的单位从秒改为毫秒
+SDK Update
+AppLovinMediationIronSourceAdapter Updated: 7.1.10.0.0 => 7.1.11.0.0
+IronSourceSDK Updated: 7.1.10.0 => 7.1.11.0
+AppLovinMediationVungleAdapter 6.10.2.0 => 6.10.3.0
+VungleSDK-iOS 6.10.2 => 6.10.3
+ZenSDK 3.12.10
+SDK Update
+AppLovinMediationIronSourceAdapter Updated: 7.1.6.1.0 => 7.1.10.0.0
+IronSourceSDK Updated: 7.1.6.1 => 7.1.10.0
+ZenSDK 3.12.9
+SDK Update
+VungleSDK-iOS UPdated 6.8.1 => 6.10.2
+ZenSDK 3.12.8
+ZenAd 的 SKAdNetworkId 的检查采用 Applovin 的 API进行，无需再自行维护
+SDK Update:
+AppLovinMediationGoogleAdapter Updated: 8.10.0.1 => 8.11.0.0
+Google-Mobile-Ads-SDK Updated: 8.10.0 => 8.11.0
+AppLovinMediationVerizonAdsAdapter Updated: 1.13.0.0 => 1.14.1.0
+Protobuf Updated: 3.17.0 => 3.18.0
+Verizon-Ads-Core Updated: 2.7.0 => 2.8.1
+Verizon-Ads-InlinePlacement Updated: 1.7.0 => 1.8.0
+Verizon-Ads-InlineWebAdapter Updated: 1.7.0 => 1.8.0
+Verizon-Ads-InterstitialPlacement Updated: 1.7.0 => 1.8.0
+Verizon-Ads-InterstitialVASTAdapter Updated: 1.7.0 => 1.8.0
+Verizon-Ads-InterstitialWebAdapter Updated: 1.7.0 => 1.8.0
+Verizon-Ads-NativePlacement Updated: 1.13.0 => 1.14.0
+Verizon-Ads-NativeVerizonNativeAdapter Updated: 2.8.0 => 2.9.0
+Verizon-Ads-OMSDK Updated: 1.9.0 => 1.10.0
+Verizon-Ads-StandardEdition Updated: 1.13.0 => 1.14.1
+Verizon-Ads-Support Updated: 1.14.0 => 1.15.0
+Verizon-Ads-URIExperience Updated: 2.8.0 => 2.9.0
+Verizon-Ads-VASTController Updated: 1.9.0 => 1.10.0
+Verizon-Ads-VerizonNativeController Updated: 2.14.0 => 2.15.0
+Verizon-Ads-VideoPlayer Updated: 1.8.0 => 1.9.0
+Verizon-Ads-WebController Updated: 1.6.0 => 1.7.0
+Verizon-Ads-WebView Updated: 1.9.0 => 1.10.0
+Adjust Updated: 4.29.5 => 4.29.6
+Adjust/Core Updated: 4.29.5 => 4.29.6
+AppLovinMediationFacebookAdapter Updated: 6.6.0.1 => 6.6.0.2
+AppLovinMediationMaioAdapter Updated: 1.5.7.1 => 1.5.8.0
+AppLovinMediationVungleAdapter Updated: 6.10.2.0 => 6.9.2.1
+MaioSDK Updated: 1.5.6 => 1.5.8
+VungleSDK-iOS Updated: 6.10.2 => 6.8.1
+ZenSDK 3.12.7
+ZenAd, 新增 TapJoy Adapter
+SDK Update:
+AppLovinMediationByteDanceAdapter Updated: 3.9.0.4.0 => 3.9.0.4.1
+AppLovinMediationFacebookAdapter Updated: 6.6.0.0 => 6.6.0.1
+AppLovinMediationGoogleAdapter Updated: 8.10.0.0 => 8.10.0.1
+AppLovinMediationUnityAdsAdapter Updated: 3.7.5.0 => 3.7.5.1
+AppLovinMediationGoogleAdapter Updated: 8.9.0.0 => 8.10.0.0
+Google-Mobile-Ads-SDK Updated: 8.9.0 => 8.10.0
+ZenSDK 3.12.6
+增加application:openURL:options:中对deeplink的处理逻辑.
+ZenShareCN中增加一个UIApplicaiton:openUrl的测试调用.
+ZenSDK 3.12.5
+重构，ZenCore, 移除 ZENApp 上的UIApplicationDelegate接口。（相关功能在内部完成，不对外暴露）客户端需要移除对下列ZENApp方法的调用:
+[[ZENApp sharedManager] application:app openURL:url options:options];
+[[ZENApp sharedManager] application:application continueUserActivity:userActivity restorationHandler:restorationHandler];
+ZenSDK 3.12.4
+新增对包内的 ad_config 文件自检（对错误的ad_config文件会进行提示)
+ZENSDK的配置，移动到 Info.plist 中的 ZENSDKInfo 字段下。使用字典结构。支持下列字段
+ZENSDKISPRODUCTION (bool) = YES|NO
+ZENSDKCONFIGBASEPATH (string)
+ZENSDK_CHANNEL (string) 新增
+SDK 更新
+AppLovinSDK Updated: 10.3.4 => 10.3.5 (修复了线上的崩溃问题)
+Ads-Global/BUAdSDK Updated: 3.9.0.3 => 3.9.0.4
+Ads-Global/BUFoundation Updated: 3.9.0.3 => 3.9.0.4
+Ads-Global/Domestic Updated: 3.9.0.3 => 3.9.0.4
+Ads-Global/International Updated: 3.9.0.3 => 3.9.0.4
+AppLovinMediationByteDanceAdapter Updated: 3.9.0.3.0 => 3.9.0.4.0
+Ads-Global/BUAdSDK Updated: 3.7.0.7 => 3.9.0.3
+Ads-Global/BUFoundation Updated: 3.7.0.7 => 3.9.0.3
+Ads-Global/Domestic Updated: 3.7.0.7 => 3.9.0.3
+Ads-Global/International Updated: 3.7.0.7 => 3.9.0.3
+AppLovinMediationByteDanceAdapter Updated: 3.7.0.7.0 => 3.9.0.3.0
+FBAudienceNetwork Updated: 6.5.1 => 6.6.0
+InMobiSDK/Core Updated: 9.1.7 => 9.2.1
+AppLovinMediationFacebookAdapter Updated: 6.5.1.0 => 6.6.0.0
+AppLovinMediationInMobiAdapter Updated: 9.1.7.0 => 9.2.1.0
+ZenSDK 3.12.2
+优化
+补充adjust deeplink tracking.
+ZenSDK 3.12.0
+功能
+ZENTKProviderAdjust, 添加 deferred DeepLink Response callback
+SDKSample, 添加 testDeepLink 功能
+优化
+从 ZENApp+AppDelegate 接口中，移除了application:openURL:options:, application:continueUserActivity:restorationHandler:，无需客户端调用
+ZenCore 需要依赖 GoogleUtilities, 需要 >= 7.0.0 版本
+UnityWrapper 中用到的 cStringCopy 函数被移入 ZenCore，采用统一版本
+修复
+修复了一个可能导致杀毒工具误报的问题
+修复了部分头文件不规范导致的编译错误
+升级
+Adjust Updated: 4.29.4 => 4.29.5
+ZenSDK 3.11.10
+功能
+增加 Adaptive Banner 模式
+请求 ad_config 时带上zensdkVersion， 尝试带上 userId
+优化
+重构部分 Banner 逻辑代码，删除部分不再支持的 Banner V1 模式代码
+SDK 更新
+Adjust Updated: 4.29.3 => 4.29.4
+Adjust/Core Updated: 4.29.3 => 4.29.4
+AppLovinMediationGoogleAdapter Updated: 8.8.0.1 => 8.8.0.2
+AppLovinMediationGoogleAdapter Updated: 8.8.0.2 => 8.9.0.0
+Google-Mobile-Ads-SDK Updated: 8.8.0 => 8.9.0
+ZenSDK 3.11.9
+功能
+ZenCore: SecurityTool 新增导入PEM RSA Key的功能
+修复
+ZenAd: AdShowTime, timeIntervalSince1970 使用毫秒单位
+ZenSDK 3.11.7
+Add Security Related Tools to view App's KeyChain Items
+SDK Update
+AppLovinMediationUnityAdsAdapter Updated: 3.7.2.0 => 3.7.5.0
+UnityAds Updated: 3.7.2 => 3.7.5
+Ads-Global/BUAdSDK Updated: 3.5.1.0 => 3.7.0.7
+Ads-Global/BUFoundation Updated: 3.5.1.0 => 3.7.0.7
+Ads-Global/Domestic Updated: 3.5.1.0 => 3.7.0.7
+Ads-Global/International Updated: 3.5.1.0 => 3.7.0.7
+AppLovinMediationByteDanceAdapter Updated: 3.5.1.0.0 => 3.7.0.7.0
+AppLovinMediationGoogleAdapter Updated: 8.8.0.0 => 8.8.0.1
+AppLovinMediationNendAdapter Updated: 7.0.5.0 => 7.0.6.0
+AppLovinSDK Updated: 10.3.3 => 10.3.4
+NendSDK_iOS Updated: 7.0.5 => 7.0.6
+ZenSDK 3.11.6
+ZenSDK-iOS 库只支持 x86_64 和 arm64, armv7 三种架构，移除 i386
+SDK Update
+AppLovinMediationGoogleAdapter Updated: 8.7.0.0 => 8.8.0.0
+Google-Mobile-Ads-SDK Updated: 8.7.0 => 8.8.0
+AppLovinMediationAdColonyAdapter Updated: 4.6.1.0.1 => 4.6.1.0.2
+AppLovinSDK Updated: 10.3.2 => 10.3.3
+ZenSDK 3.11.5
+ZenSDK-iOS 库只支持 x86_64 和 arm64 架构，移除 (i386, armv7)
+ZenSDK 3.11.4
+Ad lifecycle event bug fixing.
+ZenSDK 3.11.2
+Ad BI Tracker 可以由 ad config 配置开关(默认adsHTTP)
+Zenjoy Mediation: Unity Ads Inter & RV 适配新版API
+ZenSDK 3.11.0
+新增基于GRPC的 TrackingProvider，用于 Ads BI 事件
+SDK Update
+Verizon-Ads-VerizonNativeController Updated: 2.10.0 => 2.14.0
+Verizon-Ads-URIExperience Updated: 2.5.0 => 2.8.0
+Verizon-Ads-OMSDK Updated: 1.6.1 => 1.9.0
+AppLovinMediationVerizonAdsAdapter Updated: 1.9.0.1 => 1.13.0.0
+Verizon-Ads-VideoPlayer Updated: 1.6.0 => 1.8.0
+Verizon-Ads-WebController Updated: 1.3.0 => 1.6.0
+Verizon-Ads-InterstitialVASTAdapter Updated: 1.5.0 => 1.7.0
+Verizon-Ads-InlinePlacement Updated: 1.5.0 => 1.7.0
+Verizon-Ads-InterstitialWebAdapter Updated: 1.5.0 => 1.7.0
+Verizon-Ads-InlineWebAdapter Updated: 1.5.0 => 1.7.0
+Verizon-Ads-NativeVerizonNativeAdapter Updated: 2.6.0 => 2.8.0
+Verizon-Ads-Core Updated: 2.4.0 => 2.7.0
+Verizon-Ads-NativePlacement Updated: 1.11.0 => 1.13.0
+Verizon-Ads-Support Updated: 1.11.0 => 1.14.0
+Verizon-Ads-VASTController Updated: 1.6.0 => 1.9.0
+Verizon-Ads-StandardEdition Updated: 1.9.0 => 1.13.0
+Verizon-Ads-InterstitialPlacement Updated: 1.5.0 => 1.7.0
+Verizon-Ads-WebView Updated: 1.5.1 => 1.9.0
+AppLovinMediationVerizonAdsAdapter Updated: 1.9.0.0 => 1.9.0.1
+AppLovinMediationAmazonAdapter Updated: 3.1.0.0.3 => 3.1.0.0.4
+AppLovinMediationAdColonyAdapter Updated: 4.6.0.0.0 => 4.6.1.0.1
+Google-Mobile-Ads-SDK Updated: 8.6.0 => 8.7.0
+FBSDKCoreKit_Basics Ver: 11.0.1 Added
+FBSDKCoreKit_Basics/Basics Ver: 11.0.1 Added
+AppLovinMediationGoogleAdapter Updated: 8.6.0.1 => 8.7.0.0
+FBAudienceNetwork Updated: 6.5.0 => 6.5.1
+AppLovinMediationFacebookAdapter Updated: 6.5.0.0 => 6.5.1.0
+ChartboostSDK Updated: 8.4.1 => 8.4.2
+AppLovinMediationChartboostAdapter Updated: 8.4.1.0 => 8.4.2.0
+ZenSDK 3.10.13
+为支持不使用 ALConsentFlow 的客户端。对 iOS 14.5 及以上用户，Adjust 初始化时判断 ATT 状态，对于 Not Determined 状态，需要等待以下时机再做Adjust init：
+ALConsentFlow 开启状态下，等待 AL SDK Init Callback
+ALConsentFlow 未开启状态下，等待 ZenTracking 中的 requestTrackingAuthorizationWithCompletionHandler 调用结果返回时
+ZenSDK 3.10.12
+Max Consent Flow 相关逻辑优化 （针对 Adjust track install）
+对于使用 Max 聚合的客户端，在ZenAd 初始化时立刻初始化 Max SDK
+对于使用 Max 聚合的客户端，在 Max SDK 初始化完成的回调中，初始化 Adjust
+Max SDK 初始化完成后，抛出iOS Notification: K_ZENTK_ALSDK_INITIALIZED，借由该通知，没有使用 ZenTracking 的项目也可自行调整调用 Adjust 初始化的时机
+ZenSDK 3.10.11
+SDK Update
+AppLovinMediationGoogleAdapter Updated: 8.6.0.0 => 8.6.0.1
+AppLovinMediationMaioAdapter Updated: 1.5.6.1 => 1.5.7.1
+AppLovinSDK Updated: 10.3.0 => 10.3.2
+AppLovinMediationGoogleAdapter Updated: 8.5.0.0 => 8.6.0.0
+Adjust Updated: 4.28.0 => 4.29.3
+删除ZenAntiAddiction库
+ZenSDK 3.10.10
+SDK Update
+AppLovinMediationIronSourceAdapter Updated: 7.1.5.0.0 => 7.1.6.1.0
+IronSourceSDK Updated: 7.1.5.0 => 7.1.6.1
+Google-Mobile-Ads-SDK Updated: 8.5.0 => 8.6.0
+AppLovinMediationGoogleAdapter Updated: 8.5.0.0 => 8.6.0.0
+UnityAds Updated: 3.7.1 => 3.7.2
+AppLovinMediationUnityAdsAdapter Updated: 3.7.1.1 => 3.7.2.0
+SDKSample 中重新集成 Mintegral (6.9.1.0)
+ZenSDK 3.10.8
+修复 ZenTracking 在非Production模式下，内置事件的线程冲突问题
+ZenSDK 3.10.7
+SDK Update
+AppLovinSDK Updated: 10.2.1 => 10.3.0
+修复 Max Mediation 不是默认初值，导致可能首次打开App弹不出Max Consent弹版的问题
+修改 ZenCore 中的promptUserConsent， 在 iOS 14.5 及以上版本， Max Consent Flow 开启的情况下，不弹出
+ZenSDK 3.10.6
+SDK Update
+FBAudienceNetwork Updated: 6.4.1 => 6.5.0
+AppLovinMediationFacebookAdapter Updated: 6.4.1.0 => 6.5.0.0
+NendSDK_iOS Updated: 7.0.4 => 7.0.5
+AppLovinMediationNendAdapter Updated: 7.0.4.0 => 7.0.5.0
+Google-Mobile-Ads-SDK Updated: 8.4.0 => 8.5.0
+AppLovinMediationGoogleAdapter Updated: 8.4.0.1 => 8.5.0.0
+AppLovinMediationVungleAdapter Updated: 6.9.2.0 => 6.9.2.1
+VungleSDK-iOS Updated: 6.9.2 => 6.8.1
+ZenSDK 3.10.4
+Refactor sdk log event.
+Changed anti addiction url.
+ZenSDK 3.10.2
+ZenAntiAddiction module.
+ZenSDK 3.9.15
+SDK Update
+smaato-ios-sdk/Modules/OpenMeasurement Updated: 21.6.10 => 21.6.14
+smaato-ios-sdk/Modules/RewardedAds Updated: 21.6.10 => 21.6.14
+smaato-ios-sdk/Banner Updated: 21.6.10 => 21.6.14
+smaato-ios-sdk/Modules/Video Updated: 21.6.10 => 21.6.14
+smaato-ios-sdk/Native Updated: 21.6.10 => 21.6.14
+smaato-ios-sdk/Modules/Interstitial Updated: 21.6.10 => 21.6.14
+smaato-ios-sdk/Modules/RichMedia Updated: 21.6.10 => 21.6.14
+smaato-ios-sdk/Interstitial Updated: 21.6.10 => 21.6.14
+smaato-ios-sdk/Full Updated: 21.6.10 => 21.6.14
+smaato-ios-sdk/Modules/Native Updated: 21.6.10 => 21.6.14
+smaato-ios-sdk/RewardedAds Updated: 21.6.10 => 21.6.14
+ChartboostSDK Updated: 8.4.0 => 8.4.1
+AppLovinMediationSmaatoAdapter Updated: 21.6.10.2 => 21.6.14.0
+smaato-ios-sdk/Modules/Core Updated: 21.6.10 => 21.6.14
+smaato-ios-sdk/Modules/Banner Updated: 21.6.10 => 21.6.14
+AppLovinMediationChartboostAdapter Updated: 8.4.0.1 => 8.4.1.0
+smaato-ios-sdk/InApp Updated: 21.6.10 => 21.6.14
+smaato-ios-sdk Updated: 21.6.10 => 21.6.14
+AppLovinSDK Updated: 10.2.0 => 10.2.1
+AppLovinMediationUnityAdsAdapter Updated: 3.7.1.0 => 3.7.1.1
+NendSDK_iOS Updated: 7.0.2 => 7.0.4
+AppLovinMediationNendAdapter Updated: 7.0.2.0 => 7.0.4.0
+AppLovinMediationGoogleAdapter Updated: 8.4.0.0 => 8.4.0.1
+AppLovinMediationVungleAdapter Updated: 6.8.1.5 => 6.9.2.0
+VungleSDK-iOS Updated: 6.8.1 => 6.9.2
+ZenSDK 3.9.14
+ZenAdApplovinAdapter，增加检测 Applovin Consent Flow 开关状态的提示
+ZenSDK 3.9.13
+SDK Update
+Google-Mobile-Ads-SDK Updated: 8.3.0 => 8.4.0
+AppLovinMediationGoogleAdapter Updated: 8.3.0.0 => 8.4.0.0
+FBAudienceNetwork Updated: 6.3.1 => 6.4.1
+AppLovinMediationFacebookAdapter Updated: 6.3.1.0 => 6.4.1.0
+AppLovinSDK Updated: 10.1.1 => 10.2.0
+FirebaseInstallations Updated: 7.10.0 => 7.11.0
+UnityAds Updated: 3.6.0 => 3.7.1
+AppLovinMediationUnityAdsAdapter Updated: 3.6.0.1 => 3.7.1.0
+ZenSDK 3.9.12
+SDK Update
+AppLovinMediationFyberAdapter 7.8.3.0 (was 7.8.1.3)
+FyberMarketplaceSDK 7.8.3 (was 7.8.1)
+ZenSDK 3.9.11 (2021-4-12)
+SDK Update
+AppLovinMediationUnityAdsAdapter Updated: 3.6.0.0 => 3.6.0.1
+AppLovinMediationIronSourceAdapter Updated: 7.1.4.0.0 => 7.1.5.0.0
+IronSourceSDK Updated: 7.1.4.0 => 7.1.5.0
+FirebaseInstallations Updated: 7.9.0 => 7.10.0
+AppLovinMediationAdColonyAdapter Updated: 4.5.0.0.3 => 4.6.0.0.0
+InMobiSDK/Core Updated: 9.1.5 => 9.1.7
+AppLovinMediationInMobiAdapter Updated: 9.1.5.0 => 9.1.7.0
+AdColony Updated: 4.5.0 => 4.6.0
+AppLovinSDK Updated: 10.1.0 => 10.1.1
+ZenSDK 3.9.10 (2021-4-9)
+send user id to Applovin SDK when we have one.
+ZenSDK 3.9.9 (2021-4-7)
+Fix Adjust version not updated to latest issue.
+ZenSDK 3.9.8 (2021-4-2)
+SDK Update
+Adjust 4.27.1 => 4.28.0 ios14.5导致新项目无法提交.
+Ads-Global/BUAdSDK Updated 3.4.2.3 => 3.4.4.3
+Ads-Global/BUFoundation Updated 3.4.2.3 => 3.4.4.3
+Ads-Global/Domestic Updated 3.4.2.3 => 3.4.4.3
+Ads-Global/International Updated 3.4.2.3 => 3.4.4.3
+Google-Mobile-Ads-SDK Updated 8.2.0.1 => 8.3.0
+AppLovinSDK Updated 10.1.0 => 10.1.1
+ZenSDK 3.9.7 (2021-3-30)
+Fyber downgrade => 7.8.1 ( 7.8.2 中有导致展示率下降的Bug )
+ZenSDK 3.9.6 (2021-3-25)
+SDK Update
+AppLovinSDK 10.0.1 => 10.1.0
+XLForm Updated: 4.2.0 => 4.3.0
+Firebase/Analytics Updated: 7.8.1 => 7.9.0
+Firebase/CoreOnly Updated: 7.8.1 => 7.9.0
+FirebaseCore Updated: 7.8.0 => 7.9.0
+FirebaseCoreDiagnostics Updated: 7.8.0 => 7.9.0
+FirebaseInstallations Updated: 7.8.0 => 7.9.0
+Firebase/Core Updated: 7.8.1 => 7.9.0
+GoogleAppMeasurement Updated: 7.8.1 => 7.9.0
+FBAudienceNetwork Updated: 6.3.0 => 6.3.1
+AppLovinMediationFacebookAdapter Updated: 6.3.0.0 => 6.3.1.0
+FirebaseAnalytics Updated: 7.8.1 => 7.9.0
+强制升级 FBSDK 依赖到 9.0 以上，客户端可自行选择 FBSDK 9 以上的任意版本。
+增加检查代码，检查AppLovin Consent Flow是否正确集成
+ZenSDK 3.9.5 (2021-3-25)
+ZenAd, 调整 Debug Config 页面的布局
+ZenAd, 修正一个 showAd 失败回调时，slot 和 customParam 参数没有被正确传递的问题
+ZenSDK 3.9.4 (2021-3-23)
+Max 初始化时设定 mediationProvider 的初值，可以从 UserDefaults 中读上次启动后存下的值，第二次启动时，就可以在第一时间设定准确的mediationProvider， 规避Max Consent Flow 无法启动的问题。
+SDK Update:
+AppLovinMediationIronSourceAdapter 7.1.4.0.0 (was 7.1.2.0.0)
+IronSourceSDK 7.1.4.0 (was 7.1.2.0)
+ZenSDK 3.9.3 (2021-3-17)
+修复一个 AdPartner 初始化顺序导致 Max Mediation Provider 被认错的问题。
+ZenSDK 3.9.2 (2021-3-16)
+SDK Update
+Google-Mobile-Ads-SDK Updated: 8.2.0 => 8.2.0.1
+AppLovinMediationFyberAdapter Updated: 7.8.2.0 => 7.8.2.1
+AppLovinSDK Updated: 10.0.0 => 10.0.1
+AppLovinMediationGoogleAdapter Updated: 8.2.0.0 => 8.2.0.1
+ZenSDK 3.9.1 (2021-3-16)
+requestTrackingAuthorization 只在 iOS 14.5 以上生效
+SDK Update
+Google-Mobile-Ads-SDK Updated: 8.1.0 => 8.2.0
+AppLovinMediationFyberAdapter Updated: 7.8.1.3 => 7.8.2.0
+AppLovinMediationMaioAdapter Updated: 1.5.6.0 => 1.5.6.1
+AppLovinMediationIronSourceAdapter Updated: 7.1.1.0.1 => 7.1.2.0.0
+FyberMarketplaceSDK/IASDKVideo Updated: 7.8.1 => 7.8.2
+FyberMarketplaceSDK Updated: 7.8.1 => 7.8.2
+FyberMarketplaceSDK/IASDKMRAID Updated: 7.8.1 => 7.8.2
+AppLovinMediationGoogleAdapter Updated: 8.1.0.0 => 8.2.0.0
+FyberMarketplaceSDK/IASDKCore Updated: 7.8.1 => 7.8.2
+IronSourceSDK Updated: 7.1.1.0 => 7.1.2.0
+Firebase/Analytics Updated: 7.8.0 => 7.8.1
+Firebase/CoreOnly Updated: 7.8.0 => 7.8.1
+Firebase/Core Updated: 7.8.0 => 7.8.1
+GoogleAppMeasurement Updated: 7.8.0 => 7.8.1
+FirebaseAnalytics Updated: 7.8.0 => 7.8.1
+ZenSDK 3.9.0 (2021-3-15)
+在 SDKSample 中开启 Applovin Consent Flow
+目前开启 Applovin Consent Flow 需要在 Info.plist 中配置:
+    <key>AppLovinConsentFlowInfo</key>
+    <dict>
+        <key>AppLovinConsentFlowEnabled</key>
+        <true/>
+        <key>AppLovinConsentFlowPrivacyPolicy</key>
+        <string>https://www.zenlifegames.com/privacy-policy</string>
+        <key>AppLovinConsentFlowTermsOfService</key>
+        <string>https://www.zenlifegames.com/terms</string>
+    </dict>
+ZenSDK 3.8.7 (2021-3-12)
+支持基于 Applovin 的获取用户 ATT 权限的 Consent Flow
+SDK Update
+AppLovinSDK Updated: 6.15.2 => 10.0.0
+ZenTracking 面板中，展示 User Tracking Status 状态
+ZenSDK 3.8.6 (2021-3-11)
+ZenAd, 修复Zenjoy模式下，国内版项目加载 ByteDance 广告失败的问题
+ZenSDK 3.8.5 (2021-3-10)
+ZenCore，增加 GZip 开关，默认关闭，开启后在 HTTPPost 请求中将数据使用GZip方式压缩再传
+ZenTracking，增加接口 getIDFA ，用于获取iOS IDFA 字段
+SDK Update:
+AppLovinMediationVungleAdapter Updated: 6.8.1.4 => 6.8.1.5
+ZenSDK 3.8.4 (2021-3-4)
+ZenCore, 修复一个加解密层接收到服务器返回错误时，可能导致崩溃的问题
+ZenCore 的依赖项中，增加 libz
+ZenSDK 3.8.3 (2021-3-3)
+ZenTracking，修复AutoRecord的Event不发送的bug
+ZenTracking, 增加调试功能，可模拟发送任意事件任意参数
+ZenSDK 3.8.2 (2021-3-2)
+修复AdFloors没取到价格的情况下的 AdInstance Ecpm 排序错误
+SDK Update
+AppLovinMediationFyberAdapter Updated: 7.8.1.1 => 7.8.1.3
+AppLovinMediationIronSourceAdapter Updated: 7.1.0.0.0 => 7.1.1.0.0
+AppLovinMediationIronSourceAdapter Updated: 7.1.1.0.0 => 7.1.1.0.1
+Firebase/Analytics Updated: 7.6.0 => 7.7.0
+Firebase/Core Updated: 7.6.0 => 7.7.0
+Firebase/CoreOnly Updated: 7.6.0 => 7.7.0
+FirebaseAnalytics Updated: 7.6.0 => 7.7.0
+FirebaseCore Updated: 7.6.0 => 7.7.0
+GoogleAppMeasurement Updated: 7.6.0 => 7.7.0
+IronSourceSDK Updated: 7.1.0.0 => 7.1.1.0
+RangersAppLog/Core Updated: 5.6.5 => 5.6.6
+RangersAppLog/Host/CN Updated: 5.6.5 => 5.6.6
+RangersAppLog/Log Updated: 5.6.5 => 5.6.6
+RangersAppLog/Picker Updated: 5.6.5 => 5.6.6
+RangersAppLog/UITracker Updated: 5.6.5 => 5.6.6
+RangersAppLog/Unique Updated: 5.6.5 => 5.6.6
+ZenSDK 3.8.1 (2021-3-1)
+ZenAd, 支持DebugAd功能，可弹出ZenDebug广告，手动派发事件。
+ZenSDK 3.8.0 (2021-2-23)
+SDK Update
+Google-Mobile-Ads-SDK Updated: 7.69.0 => 8.0.0
+Google-Mobile-Ads-SDK Updated: 8.0.0 => 8.1.0
+AppLovinMediationGoogleAdapter Updated: 7.69.0.2 => 8.0.0.0
+AppLovinMediationGoogleAdapter Updated: 8.0.0.0 => 8.1.0.0
+FBAudienceNetwork Updated: 6.2.1 => 6.3.0
+AppLovinMediationFacebookAdapter Updated: 6.2.1.0 => 6.3.0.0
+AppLovinMediationAdColonyAdapter Updated: 4.5.0.0.1 => 4.5.0.0.2
+AppLovinMediationAdColonyAdapter Updated: 4.5.0.0.2 => 4.5.0.0.3
+AppLovinMediationFyberAdapter Updated: 7.8.1.0 => 7.8.1.1
+AppLovinMediationVungleAdapter Updated: 6.8.1.3 => 6.8.1.4
+FirebaseCoreDiagnostics Updated: 7.6.0 => 7.7.0
+FirebaseInstallations Updated: 7.6.0 => 7.7.0
+ZenSDK 3.7.5 (2021-2-19)
+ZenAd, AdFloors 增加调试功能
+ZenSDK 3.7.4 (2021-2-18)
+Follow FBSDK Doc: https://www.facebook.com/business/help/2750680505215705?id=428636648170202 Call [FBSDKSettings setAdvertiserTrackingEnabled:YES]; when iOS 14 Tracking Authorized got from user
+Require FBSDK >= 8.1.0, for iOS 14 support
+ZenSDK 3.7.3 (2021-2-18)
+SDK Update
+Ads-Global/BUAdSDK Ver: 3.4.2.3 Added
+Ads-Global/BUFoundation Ver: 3.4.2.3 Added
+Ads-Global/Domestic Ver: 3.4.2.3 Added
+Ads-Global/International Ver: 3.4.2.3 Added
+AppLovinMediationByteDanceAdapter Updated: 3.3.6.2.0 => 3.4.2.3.0
+AppLovinMediationFyberAdapter Updated: 7.8.0.2 => 7.8.1.0
+AppLovinMediationGoogleAdapter Updated: 7.69.0.1 => 7.69.0.2
+AppLovinMediationInMobiAdapter Updated: 9.1.1.1 => 9.1.5.0
+Bytedance-UnionAD Removed
+Firebase/Analytics Updated: 7.5.0 => 7.6.0
+Firebase/Core Updated: 7.5.0 => 7.6.0
+Firebase/CoreOnly Updated: 7.5.0 => 7.6.0
+FirebaseAnalytics Updated: 7.5.0 => 7.6.0
+FirebaseCore Updated: 7.5.0 => 7.6.0
+FirebaseCoreDiagnostics Updated: 7.5.0 => 7.6.0
+FirebaseInstallations Updated: 7.5.0 => 7.6.0
+FyberMarketplaceSDK Updated: 7.8.0 => 7.8.1
+FyberMarketplaceSDK/IASDKCore Updated: 7.8.0 => 7.8.1
+FyberMarketplaceSDK/IASDKMRAID Updated: 7.8.0 => 7.8.1
+FyberMarketplaceSDK/IASDKVideo Updated: 7.8.0 => 7.8.1
+GoogleAppMeasurement Updated: 7.5.0 => 7.6.0
+InMobiSDK/Core Updated: 9.1.1 => 9.1.5
+ZenSDK 3.7.2 (2021-2-9)
+ZenAd，从服务器获取AdFloors信息，用于adInstance的eCPM
+ZenAd，增加接口，获取Inter/RV/AppOpen广告的eCPM值，需要传入slot
+ZenCore, 重构了 ZENHTTPUtil 底层，基于 FBLPromise 实现异步post
+SDK Update
+AppLovinMediationAdColonyAdapter Updated: 4.5.0.0.0 => 4.5.0.0.1
+RangersAppLog/Core Updated: 5.6.4 => 5.6.5
+AppLovinSDK Updated: 6.15.1 => 6.15.2
+RangersAppLog/UITracker Updated: 5.6.4 => 5.6.5
+RangersAppLog/Picker Updated: 5.6.4 => 5.6.5
+RangersAppLog/Host/CN Updated: 5.6.4 => 5.6.5
+RangersAppLog/Log Updated: 5.6.4 => 5.6.5
+RangersAppLog/Unique Updated: 5.6.4 => 5.6.5
+ZenSDK 3.7.1 (2021-2-5)
+ZenTracking, 重构，userId 和 adjustId 现在是通用参数的一部分
+ZenTrackingProviderFacebook, 现在发送的事件参数中，合并了通用参数
+ZenSDK 3.7.0 (2021-2-5)
+ZenPush, Podspec 中发布 ZenPushGlobal 库, pod 'ZenSDK/ZenPushGlobal'
+ZenSDK 3.6.20 (2021-2-5)
+ZenTracking, 增补 Unity 导出函数 setUserID
+ZenSDK 3.6.19 (2021-2-5)
+SDK Update:
+AppLovinMediationFyberAdapter Updated: 7.8.0.1 => 7.8.0.2
+SDKSample, Applovin Quality Service => 5.0.6
+ZenTracking, UserActEvent逻辑部分代码简化， Adjust 事件使用 UserAct Event 的名字作为Debug Log中的名字
+ZenSDK 3.6.18 (2021-2-4)
+ZenTracking, 修改UserAct Events存储OnlyOnce所用的键值，使之更易读
+SDKSample 中所使用的 Firebase 相关库升级到 7.5.0
+Firebase/Analytics Updated: 7.4.0 => 7.5.0
+Firebase/CoreOnly Updated: 7.4.0 => 7.5.0
+FirebaseCore Updated: 7.4.0 => 7.5.0
+FirebaseCoreDiagnostics Updated: 7.4.0 => 7.5.0
+FirebaseInstallations Updated: 7.4.0 => 7.5.0
+Firebase/Core Updated: 7.4.0 => 7.5.0
+FirebaseAnalytics Updated: 7.4.0 => 7.5.0
+GoogleAppMeasurement Updated: 7.4.0 => 7.5.0
+ZenSDK 3.6.17 (2021-2-3)
+ZenAd, 修复 AdInstance onLoad 时 setMediationInfo 可能为空的crash
+SDKSample, 增补 Fyber 的SKAdNetworkID
+ZenSDK 3.6.16 (2021-2-2)
+修改 ZenSDK.podspec-template， 要求 Adjust ~> 4.25.1
+ZenAd，adinstance_enqueue 新增 字段 cacheDuration, mediationInfo
+SDK Update
+AppLovinMediationVerizonAdsAdapter Updated: 1.8.1.0 => 1.9.0.0
+Verizon-Ads-VerizonNativeController Updated: 2.8.1 => 2.10.0
+Verizon-Ads-VideoPlayer Updated: 1.5.0 => 1.6.0
+Verizon-Ads-InterstitialVASTAdapter Updated: 1.4.0 => 1.5.0
+Verizon-Ads-InlinePlacement Updated: 1.4.1 => 1.5.0
+Verizon-Ads-InterstitialWebAdapter Updated: 1.4.0 => 1.5.0
+Verizon-Ads-InlineWebAdapter Updated: 1.4.0 => 1.5.0
+Verizon-Ads-Core Updated: 2.3.1 => 2.4.0
+Verizon-Ads-NativePlacement Updated: 1.10.1 => 1.11.0
+Verizon-Ads-Support Updated: 1.9.1 => 1.11.0
+Verizon-Ads-VASTController Updated: 1.5.0 => 1.6.0
+Verizon-Ads-StandardEdition Updated: 1.8.1 => 1.9.0
+AppLovinMediationAdColonyAdapter Updated: 4.4.1.1.1 => 4.5.0.0.0
+AdColony Updated: 4.4.1.1 => 4.5.0
+ZenSDK 3.6.15 (2021-2-1)
+ZenTracking，增加 Debug UserAct Events 功能，用于检查当前项目的所有 UserAct 事件。
+ZenSDK 3.6.14 (2021-1-29)
+ZenTracking，增加API: sendUserActEventsByUserId
+调试面板中新增 Trigger UserAct Events 调试功能
+ZenSDK 3.6.13 (2021-1-27)
+SDK Update
+AppLovinMediationGoogleAdapter Updated: 7.67.1.5 => 7.69.0.1
+Google-Mobile-Ads-SDK 7.66.0 => 7.69.0
+Firebase/Core >= 6.15
+GoogleUtilities >= 6.6.0
+ZenSDK 3.6.11 (2021-1-26)
+SDK Update
+Adjust 4.23.0 => 4.25.1
+ZenSDK 3.6.10 (2021-1-25)
+Applovin Max Ad creativeId added to BI.
+ZenSDK 3.6.9 (2021-1-25)
+SDK Update
+AppLovinMediationFyberAdapter Updated: 7.8.0.0 => 7.8.0.1
+AppLovinMediationFyberAdapter Updated: 7.7.3.0 => 7.8.0.0
+AppLovinMediationUnityAdsAdapter Updated: 3.5.1.1 => 3.6.0.0
+AppLovinMediationSmaatoAdapter Updated: 21.6.10.0 => 21.6.10.1
+AppLovinMediationInMobiAdapter Updated: 9.1.1.0 => 9.1.1.1
+AppLovinMediationIronSourceAdapter Updated: 7.0.4.0.0 => 7.1.0.0.0
+FyberMarketplaceSDK/IASDKVideo Updated: 7.7.3 => 7.8.0
+FyberMarketplaceSDK Updated: 7.7.3 => 7.8.0
+FyberMarketplaceSDK/IASDKMRAID Updated: 7.7.3 => 7.8.0
+FyberMarketplaceSDK/IASDKCore Updated: 7.7.3 => 7.8.0
+UnityAds Updated: 3.5.1 => 3.6.0
+AppLovinSDK Updated: 6.15.0 => 6.15.1
+IronSourceSDK Updated: 7.0.4.0 => 7.1.0.0
+ZenPush 添加基础的 LocalNotification API
+ZenSDK 3.6.8 (2021-1-14)
+Banner ads show bi event added.
+Banner ads add API to get Predefined Banner Height in Pixel.
+ZenTracking, removed openAppSetting when Rejected status behaviour on rejected status.
+ZenTracking, requestTrackingAuthorizationWithCompletionHandler always have callback, no return value.
+SDK Update
+smaato-ios-sdk/Modules/OpenMeasurement Updated: 21.6.6 => 21.6.10
+smaato-ios-sdk/Modules/RewardedAds Updated: 21.6.6 => 21.6.10
+smaato-ios-sdk/Banner Updated: 21.6.6 => 21.6.10
+smaato-ios-sdk/Modules/Video Updated: 21.6.6 => 21.6.10
+smaato-ios-sdk/Native Updated: 21.6.6 => 21.6.10
+smaato-ios-sdk/Modules/Interstitial Updated: 21.6.6 => 21.6.10
+smaato-ios-sdk/Modules/RichMedia Updated: 21.6.6 => 21.6.10
+smaato-ios-sdk/Full Updated: 21.6.6 => 21.6.10
+smaato-ios-sdk/Interstitial Updated: 21.6.6 => 21.6.10
+smaato-ios-sdk/Modules/Native Updated: 21.6.6 => 21.6.10
+smaato-ios-sdk/RewardedAds Updated: 21.6.6 => 21.6.10
+smaato-ios-sdk/Modules/Core Updated: 21.6.6 => 21.6.10
+smaato-ios-sdk/Modules/Banner Updated: 21.6.6 => 21.6.10
+smaato-ios-sdk/InApp Updated: 21.6.6 => 21.6.10
+smaato-ios-sdk Updated: 21.6.6 => 21.6.10
+AppLovinMediationSmaatoAdapter Updated: 21.6.6.0 => 21.6.10.0
+AppLovinMediationVungleAdapter Updated: 6.8.1.2 => 6.8.1.3
+AppLovinMediationChartboostAdapter Updated: 8.4.0.0 => 8.4.0.1
+MJExtension Updated: 3.2.2 => 3.2.3
+MJExtension Updated: 3.2.3 => 3.2.4
+AppLovinSDK Updated: 6.14.11 => 6.15.0
+ZenSDK 3.6.6 (2021-1-14)
+ZenTracking, requestTrackingAuthorizationWithCompletionHandler 接口总是可以工作，不论是否集成了 ZenTrackingProviderAdjust
+在 集成了 ZenTrackingProviderAdjust 时，会使用 Adjust 版本的实现
+否则，使用默认的实现
+ZenSDK 3.6.5 (2021-1-14)
+ZenTracking 增加 Unity 绑定接口(用于获取 IDFA 权限): ZENTKRequestTrackingAuthorizationWithCompletionHandler
+0: ATTrackingManagerAuthorizationStatusNotDetermined
+1: ATTrackingManagerAuthorizationStatusRestricted
+2: ATTrackingManagerAuthorizationStatusDenied
+3: ATTrackingManagerAuthorizationStatusAuthorized
+ZenSDK 3.6.4 (2021-1-13)
+SDK Update
+AppLovinMediationAmazonAdapter Updated: 3.1.0.0.2 => 3.1.0.0.3
+FBAudienceNetwork Updated: 6.2.0 => 6.2.1
+AppLovinMediationFacebookAdapter Updated: 6.2.0.1 => 6.2.1.0
+ZenSDK 3.6.3 (2021-1-12)
+ZenAd, 修复 partner_initialized 事件中 mediationProvider 总是 zenjoy 的问题。
+ZenSDK 3.6.2 (2021-1-7)
+SDK Update
+AppLovinMediationByteDanceAdapter Updated: 3.3.6.1.0 => 3.3.6.2.0
+Bytedance-UnionAD Updated: 3.3.6.1 => 3.3.6.2
+AppLovinSDK Updated: 6.14.10 => 6.14.11
+RangersAppLog/Core Updated: 5.6.3 => 5.6.4
+RangersAppLog/UITracker Updated: 5.6.3 => 5.6.4
+RangersAppLog/Picker Updated: 5.6.3 => 5.6.4
+RangersAppLog/Host/CN Updated: 5.6.3 => 5.6.4
+RangersAppLog/Log Updated: 5.6.3 => 5.6.4
+RangersAppLog/Unique Updated: 5.6.3 => 5.6.4
+ZenSDK 3.6.1 (2021-1-5)
+ZenTracking：新增 getUserId 和 getAdjustId 的 C# 导出接口
+ZenSDK 3.6.0 (2021-1-4)
+修复 ZenCore 缺失的资源包
+消除了 AppleSignin 在 iOS 13 以下设备的警告信息误报
+ZenSDK 3.5.9 (2020-12-23)
+增加接口用于检测是否运行于中国大陆地区
+生成的C#导出类，使用静态类
+ZenSDK 3.5.6 (2020-12-22)
+更新完善基于UserProfile接口的 Complete_Registration 标准事件 (Firebase & Facebook)
+针对上述功能支持调试设置UserProfile的接口
+ZenSDK 3.5.5 (2020-12-21)
+ZenCore & ZenAd 导出 C# API 修复 UI 调用的线程问题
+公开 ZENApp(HTMLDialog) isHTMLDialogShownInOnlyOnceMode 接口
+ZenSDK 3.5.3 (2020-12-21)
+增加 ZenCore C# 绑定导出函数，用于弹出 HTML 对话框，及回调
+HTMLDialog WebView 设置SafeArea Inset 为 0
+ZenSDK 3.5.0 (2020-12-20)
+SDK Updated
+AppLovinSDK Updated: 6.14.9 => 6.14.10
+AppLovinMediationByteDanceAdapter Updated: 3.3.1.5.0 => 3.3.6.1.0
+Bytedance-UnionAD Updated: 3.3.1.5 => 3.3.6.1
+smaato-ios-sdk/Modules/OpenMeasurement Updated: 21.6.2 => 21.6.6
+smaato-ios-sdk/Modules/RewardedAds Updated: 21.6.2 => 21.6.6
+smaato-ios-sdk/Banner Updated: 21.6.2 => 21.6.6
+smaato-ios-sdk/Modules/Video Updated: 21.6.2 => 21.6.6
+smaato-ios-sdk/Native Updated: 21.6.2 => 21.6.6
+smaato-ios-sdk/Modules/Interstitial Updated: 21.6.2 => 21.6.6
+smaato-ios-sdk/Modules/RichMedia Updated: 21.6.2 => 21.6.6
+smaato-ios-sdk/Full Updated: 21.6.2 => 21.6.6
+smaato-ios-sdk/Interstitial Updated: 21.6.2 => 21.6.6
+smaato-ios-sdk/Modules/Native Updated: 21.6.2 => 21.6.6
+smaato-ios-sdk/RewardedAds Updated: 21.6.2 => 21.6.6
+AppLovinMediationSmaatoAdapter Updated: 21.6.2.0 => 21.6.6.0
+smaato-ios-sdk/Modules/Core Updated: 21.6.2 => 21.6.6
+smaato-ios-sdk/Modules/Banner Updated: 21.6.2 => 21.6.6
+smaato-ios-sdk/InApp Updated: 21.6.2 => 21.6.6
+smaato-ios-sdk Updated: 21.6.2 => 21.6.6
+ZenSDK 3.4.10 (2020-12-20)
+OnlyOnce storage key is passed in htmlPath (relative to bundle) for local file
+ZenSDK 3.4.9 (2020-12-18)
+ZenCore showHTMLDialog API 重构，支持基于 NSURL 的HTML对话框，可传入远程或本地的URL
+ZenSDK 3.4.8 (2020-12-17)
+ZenCore showHTMLDialog 支持只弹一次 (通过 HTML 标签的 Attitude isRecordOnlyOnce="true" 实现)
+ZenSDK 3.4.7 (2020-12-17)
+ZenCore: 新增API showHTMLDialog:withCallback:withTrackingEnabled: 可弹出一个基于HTML的对话框
+showHTMLDialog:withCallback: 默认开启Tracking
+ZenSDK 3.4.6 (2020-12-15)
+ZenTracking 新增内置标准事件（不对外） complete_registration，用于UserProfile 的 payback （回本）事件点
+Facebook 使用 CompletedRegistration 标准事件
+Firebase 使用 SignUp 标准事件
+ZenSDK 3.4.5 (2020-12-15)
+SDK Update
+AppLovinMediationUnityAdsAdapter Updated: 3.5.1.0 => 3.5.1.1
+ChartboostSDK Updated: 8.3.1 => 8.4.0
+AppLovinMediationChartboostAdapter Updated: 8.3.1.1 => 8.4.0.0
+AppLovinMediationIronSourceAdapter Updated: 7.0.3.0.2 => 7.0.4.0.0
+IronSourceSDK Updated: 7.0.3.0 => 7.0.4.0
+RangersAppLog/Core Updated: 5.6.1 => 5.6.3
+RangersAppLog Updated: 5.6.1 => 5.6.3
+RangersAppLog/Host Updated: 5.6.1 => 5.6.3
+RangersAppLog/UITracker Updated: 5.6.1 => 5.6.3
+RangersAppLog/Picker Updated: 5.6.1 => 5.6.3
+RangersAppLog/Host/CN Updated: 5.6.1 => 5.6.3
+RangersAppLog/Log Updated: 5.6.1 => 5.6.3
+RangersAppLog/Host/SG Updated: 5.6.1 => 5.6.3
+RangersAppLog/Unique Updated: 5.6.1 => 5.6.3
+MaioSDK Updated: 1.5.5 => 1.5.6
+AppLovinMediationMaioAdapter Updated: 1.5.5.0 => 1.5.6.0
+AppLovinMediationIronSourceAdapter Updated: 7.0.3.0.1 => 7.0.3.0.2
+RangersAppLog/Core Updated: 5.6.0 => 5.6.1
+RangersAppLog Updated: 5.6.0 => 5.6.1
+RangersAppLog/Host/VA Updated: 5.6.0 => 5.6.1
+RangersAppLog/Host Updated: 5.6.0 => 5.6.1
+RangersAppLog/UITracker Updated: 5.6.0 => 5.6.1
+RangersAppLog/Picker Updated: 5.6.0 => 5.6.1
+RangersAppLog/Host/CN Updated: 5.6.0 => 5.6.1
+RangersAppLog/Log Updated: 5.6.0 => 5.6.1
+RangersAppLog/Host/SG Updated: 5.6.0 => 5.6.1
+RangersAppLog/Unique Updated: 5.6.0 => 5.6.1
+GoogleUserMessagingPlatform Updated: 1.3.0 => 1.4.0
+AppLovinSDK Updated: 6.14.8 => 6.14.9
+ZenSDK 3.4.4
+添加了用于调试的 Log
+ZenSDK 3.4.3
+ZenCore & ZenCoreDelegateFacebook are built as static_framework
+ZenSDK 3.4.2 (2020-12-3)
+添加 ZenTracking C# Binding API
+ZenSDK 3.4.1 (2020-12-2)
+注册Module到package server。配合Unity项目中的ZenSDK集成工具使用。
+增加DebugUI的TabBarItem图标
+在partner_initialized事件中增加mediationProvider参数
+ZenSDK 3.3.7 (2020-11-20)
+SDK Update
+UnityAds Updated: 3.4.8 => 3.5.1
+AppLovinMediationGoogleAdapter Updated: 7.67.1.4 => 7.67.1.5
+AppLovinMediationUnityAdsAdapter Updated: 3.5.0.2 => 3.5.1.0
+ZenSDK 3.3.6 (2020-11-18)
+SDK Update
+Bytedance-UnionAD Updated: 3.3.0.5 => 3.3.1.5
+FyberMarketplaceSDK/IASDKVideo Updated: 7.7.2 => 7.7.3
+InMobiSDK/Core Updated: 9.1.0 => 9.1.1
+FyberMarketplaceSDK Updated: 7.7.2 => 7.7.3
+FyberMarketplaceSDK/IASDKMRAID Updated: 7.7.2 => 7.7.3
+FyberMarketplaceSDK/IASDKCore Updated: 7.7.2 => 7.7.3
+AppLovinMediationByteDanceAdapter Updated: 3.3.0.5.2 => 3.3.1.5.0
+AppLovinMediationFacebookAdapter Updated: 6.2.0.0 => 6.2.0.1
+AppLovinMediationGoogleAdapter Updated: 7.67.1.3 => 7.67.1.4
+AppLovinMediationFyberAdapter Updated: 7.7.2.1 => 7.7.3.0
+AppLovinMediationInMobiAdapter Updated: 9.1.0.1 => 9.1.1.0
+AppLovinMediationVungleAdapter Updated: 6.8.1.1 => 6.8.1.2
+修复UnityWrapper导出函数的问题
+ZenSDK 3.3.2 (2020-11-18)
+Upgrade RangersAppLog (5.6.0).
+Refactor ZenPush, split ZenPushCN
+Export ZTEA series Functions in ZenPushCN for HomeCN project usage
+ZenSDK 3.3.0 (2020-11-12)
+3.3.0 support app open ad.
+ZenSDK 3.2.5 (2020-11-9)
+SDK 更新
+AppLovinSDK Updated: 6.14.6 => 6.14.7
+AppLovinSDK Updated: 6.14.7 => 6.14.8
+AdColony Updated: 4.4.1 => 4.4.1.1
+Bytedance-UnionAD Updated: 3.3.0.4 => 3.3.0.5
+AppLovinMediationFyberAdapter Updated: 7.7.2.0 => 7.7.2.1
+AppLovinMediationIronSourceAdapter Updated: 7.0.3.0.0 => 7.0.3.0.1
+AppLovinMediationAdColonyAdapter Updated: 4.4.1.0 => 4.4.1.1.1
+AppLovinMediationVungleAdapter Updated: 6.8.1.0 => 6.8.1.1
+AppLovinMediationByteDanceAdapter Updated: 3.3.0.5.1 => 3.3.0.5.2
+AppLovinMediationGoogleAdapter Updated: 7.67.1.2 => 7.67.1.3
+AppLovinMediationUnityAdsAdapter Updated: 3.5.0.1 => 3.5.0.2
+AppLovinMediationChartboostAdapter Updated: 8.3.1.0 => 8.3.1.1
+AppLovinMediationInMobiAdapter Updated: 9.1.0.0 => 9.1.0.1
+AppLovinMediationByteDanceAdapter Updated: 3.3.0.5.0 => 3.3.0.5.1
+AppLovinMediationByteDanceAdapter Updated: 3.3.0.4.0 => 3.3.0.5.0
+ZenSDK 3.2.4 (2020-11-3)
+Facebook AN SDK 更新完善
+重构，提升安全性
+ZenSDK 3.2.3 (2020-11-2)
+SDK 更新
+AppLovinMediationFacebookAdapter 6.2.0.0 (was 5.10.1.7)
+FBAudienceNetwork 6.2.0 (was 5.10.1)
+ZenSDK 3.2.2 (2020-10-30)
+SDK 更新
+AppLovinMediationByteDanceAdapter Updated: 3.2.6.2.1 => 3.3.0.4.0
+AppLovinMediationGoogleAdapter Updated: 7.67.1.1 => 7.67.1.2
+Bytedance-UnionAD Updated: 3.2.6.2 => 3.3.0.4
+ZenSDK 3.2.1 (2020-10-28)
+新增 AppOpen 广告类型，只支持Zenjoy 模式，只支持 Admob 和 ByteDanceExpress
+SDK 更新
+Verizon-Ads-VerizonNativeController Updated: 2.8.0 => 2.8.1
+Verizon-Ads-OMSDK Updated: 1.6.0 => 1.6.1
+AppLovinSDK Updated: 6.14.5 => 6.14.6
+AppLovinMediationVerizonAdsAdapter Updated: 1.8.0.0 => 1.8.1.0
+Verizon-Ads-InlinePlacement Updated: 1.4.0 => 1.4.1
+Verizon-Ads-Core Updated: 2.3.0 => 2.3.1
+AppLovinMediationGoogleAdapter Updated: 7.66.0.2 => 7.67.1.1
+Verizon-Ads-NativePlacement Updated: 1.10.0 => 1.10.1
+Verizon-Ads-Support Updated: 1.9.0 => 1.9.1
+Verizon-Ads-StandardEdition Updated: 1.8.0 => 1.8.1
+Verizon-Ads-WebView Updated: 1.5.0 => 1.5.1
+新增工具脚本 GenBinding.py ，用于生成Unity接口函数
+ZenSDK 3.2.0 (2020-10-23)
+增加了 Nend, Maio Network， 仅在 Max 中支持，无 Zenjoy 支持。
+ZenSDK 3.1.8 (2020-10-22)
+重新设计 SDK 错误自检功能， Ad， Tracking， Social 如有问题，会在Modules Tab 上标记出来
+ZenSDK 3.1.7 (2020-10-19)
+isIPhoneX supports iPhone 12
+ZenCore 模块导出 ZENDeviceTool.h 头文件，可供客户端使用
+ZenSDK 3.1.5 (2020-10-19)
+SDK 更新
+AppLovinMediationIronSourceAdapter Updated: 7.0.2.0.0 => 7.0.3.0.0
+IronSourceSDK Updated: 7.0.2.0 => 7.0.3.0
+AppLovinMediationVungleAdapter Updated: 6.8.0.0 => 6.8.1.0
+VungleSDK-iOS Updated: 6.8.0 => 6.8.1
+AppLovinSDK Updated: 6.14.4 => 6.14.5
+AppLovinMediationGoogleAdapter Updated: 7.66.0.1 => 7.66.0.2
+AppLovinMediationFyberAdapter Updated: 7.7.1.0 => 7.7.2.0
+FyberMarketplaceSDK/IASDKVideo Updated: 7.7.1 => 7.7.2
+FyberMarketplaceSDK Updated: 7.7.1 => 7.7.2
+FyberMarketplaceSDK/IASDKMRAID Updated: 7.7.1 => 7.7.2
+FyberMarketplaceSDK/IASDKCore Updated: 7.7.1 => 7.7.2
+ZenSDK 3.1.4 (2020-10-13)
+SDK 更新
+XLForm Updated: 4.2.0
+ZenSDK 3.1.3 (2020-10-12)
+SDK 更新：
+AdColony Updated: 4.4.0 => 4.4.1
+AppLovinMediationAdColonyAdapter Updated: 4.4.0.1 => 4.4.1.0
+AppLovinMediationFyberAdapter Updated: 7.6.4.1 => 7.7.1.0
+FyberMarketplaceSDK Updated: 7.6.4 => 7.7.1
+FyberMarketplaceSDK/IASDKCore Updated: 7.6.4 => 7.7.1
+FyberMarketplaceSDK/IASDKMRAID Updated: 7.6.4 => 7.7.1
+FyberMarketplaceSDK/IASDKVideo Updated: 7.6.4 => 7.7.1
+Applovin 支持开关 Verbose Logging （用于查错）, 在 Partner 中开启
+修复导致 Smaato 加载不到的 配置问题
+ZenSDK 3.1.2 (2020-10-09)
+更新广告SDK版本及 Max Adapter 版本
+Google-Mobile-Ads-SDK 7.66.0 (was 7.65.0)
+IronSourceSDK 7.0.2.0 (was 7.0.1.0)
+ZenSDK 3.1.1 (2020-09-29)
+不再人工限定 AdAdapter 中引用的三方 SDK 版本，改为依赖 Max Adapter 的最新版（及其依赖的三方SDK版本） 本次带来的更新包括：
+Adjust 4.23.2
+InMobi 9.1.0
+Verizon-Ads-StandardEdition 1.8.0
+smaato-ios-sdk 21.6.2
+ZenSDK 3.1.0 (2020-09-28)
+ZenSDK iOS Dependency 在打Pod库时，会依赖当前工程中的Podfile.lock锁定版本
+目前将 ZenAdAdapters 中的 Max Adatper 依赖项的版本使用上述方法进行管理
+删除了 FBBidding 1.0 的库
+ZenSDK 3.0.27 (2020-09-27)
+增加了 基于网络的 SDK Integration 问题检测 (SKAdNetworkItems, Tracking Privacy)
+ZenSDK 3.0.26 (2020-09-24)
+增加了 ZenAd 的 Navigation 标题栏
+在 ZENApp 中新增了 OpenURL 的API
+修复了iPad上使用 Common Table 控件时，弹出 ActionSheet 位置不对的问题
+ZenSDK 3.0.25 (2020-09-23)
+修复 Ad Runtime UI 在没有 Banner 的情况下崩溃的问题
+修复 Common Table Cell 的 Switch 模式，在状态改了之后不能跟随最新状态的问题
+ZenSDK 3.0.23 (2020-09-22)
+重构 Ad Runtime UI （采用新版通用UI组件构造）
+在 Partner 中增加 Max 的 Ad Info 开关，可自行打开
+ZenSDK 3.0.22 (2020-09-22)
+set ZenTracking dependency on Firebase >= 6.14, no longer lock to exact 6.14.
+ZenSDK 3.0.21 (2020-09-22)
+Applovin SDK 6.14.3
+AdColony 4.4.0
+ZenSDK 3.0.20 (2020-09-18)
+Vungle 6.7.1->6.8.0
+ZenSDK 3.0.19 (2020-09-16)
+ByteDance 3.2.5.2->3.2.6.2
+Chartboost 8.2.1->8.3.1
+ZenSDK 3.0.18 (2020-09-15)
+Fix a crash in core setting
+ZenSDK 3.0.17 (2020-09-15)
+Applovin 6.14.2
+Admob 7.65.0
+Pangle (Bytedance) 3.2.5.2
+Pangle SKAdNetworkItems check added
+ZenSDK 3.0.16 (2020-09-07)
+ZenTracking: Support IDFA access request. (requestTrackingAuthorizationWithCompletionHandler)
+ZenSDK 3.0.15 (2020-09-07)
+Fyber 7.6.4, Fyber SDK CHANGELOG
+AdColony 4.3.1, AdColony SDK CHANGELOG
+Applovin 6.13.5
+IronSource 7.0.1, IronSource SDK CHANGELOG
+ZenSDK 3.0.11 (2020-09-01)
+ZenSocial: API getFriendsInfo use server enhanced api for the first attempt, goto Facebook api if first try failed.
+DebugUI: ZenSocial LoginFacebook add apiEnhanceEnabled field to show the social_config.json state, refactor Login detail view
+ZenSocialLoginFacebook.podspec add dependency to PromiseObjC
+ZenSDK 3.0.10 (2020-08-26)
+Fix Smaato RV no reward issue
+Facebook SDK dependency changed to >= 5.8.0, let client specify the version they like
+ZenSDK 3.0.9 (2020-08-25)
+Bytedance => 3.2.0.1
+ZenSDK 3.0.8 (2020-08-24)
+Adjust => 4.23.0
+增加对SKAdNetworkItems的检测
+ZenSDK 3.0.4 (2020-08-18)
+AdColony 4.1.5 => 4.3.0
+Admob 7.60.0 => 7.64.0
+ByteDance(Pangle) 3.1.0.5 => 3.1.0.9
+Chartboost 8.1.0 => 8.2.1
+Fyber 7.5.6 => 7.6.3
+IronSource 6.18.0.1 => 7.0.0.0
+MIntegral 6.3.2 => 6.4.0
+Unity 3.4.6 => 3.4.8
+Verizon 1.6.0 => 1.7.0
+Vungle 6.7.0 => 6.7.1
+ZenSDK 3.0.3 (2020-08-17)
+applovinsdk => 6.13.4
+applovin gdpr & ccpa consent setup before sdk init
+add debug log for banner height
+ZenSDK 3.0.2 (2020-08-11)
+升级 Applovin SDK => 9.13.2 （Max Debugger 中增加对 Ad Review SDK 集成的检测）
+ZenSDK 3.0.1 (2020-08-10)
+已加载到的广告过期时间改为1小时.
+ZenSDK 2.5.41 (2020-08-06)
+取消了读取本地存储的 Ad Config 时，对客户端版本进行检查的逻辑。（不再执行新版客户端丢弃旧的存储的adconfig的逻辑）
+取消了已加载到的广告的过期时间逻辑
+ZenSDK 2.5.39 (2020-08-06)
+InMobi 9.0.7
+Fix ad instance open timeout protect should not work for banner
+ZenSDK 2.5.38 (2020-08-05)
+AmazonAd 3.1.0
+IronSource 6.18.0.1
+ZenSDK 2.5.37 (2020-08-03)
+Fix zenjoy's applovin adapter banner height not right on iPad issue
+ZenSDK 2.5.36 (2020-07-31)
+Smaato config added
+ByteDance Express can not load issue fixed.
+ZenSDK 2.5.35 (2020-07-31)
+Debug UI: ZENCommonTableViewController 支持多 Section
+ZenCore: DeviceTool 增加接口支持判断设备是否越狱
+ZenSDK 2.5.34 (2020-07-31)
+Debug UI ZenAd Config 页面中增加 Mediation Provider 信息
+ZenSDK 2.5.33 (2020-07-31)
+Vungle 6.7.0
+Bytedance 3.1.0.5
+Fix applovin mediation adapter auto-init when max is not used (修复部分广告渠道的广告被Applovin Mediation干扰，无法加载)
+ZenSDK 2.5.32 (2020-07-29)
+Unity Ads => 3.4.6
+ZenSDK 2.5.31 (2020-07-29)
+Firebase 6.3.0 => 6.14.0
+ZenSDK 2.5.30 (2020-07-28)
+FBAN SDK 升级后根据 FBAN 隐私政策，调用API传递必要的信息 https://developers.facebook.com/docs/marketing-apis/data-processing-options#
+ZenSDK 2.5.29 (2020-07-27)
+Facebook AN to 5.10.1
+Applovin SDK to 6.13.1
+ZenSDK 2.5.28 (2020-07-24)
+Umeng sdk to 6.9.10
+ZenSDK 2.5.27 (2020-07-23)
+Refresh & save current privacy url in setGotUserConsentWithUrl.
+ZenSDK 2.5.26 (2020-07-22)
+UserConsent 在 非Production 模式下，访问 getprivacy API时，采用BETA server。 https://databoat-beta.zenkube.com/getprivacy
+Core Debug UI 中，增加查看 ZENSDKISPRODUCTION ， CONFIGBASEPATH， LOG_LEVEL， 等 CoreSetting 的页面
+ZenSDK 2.5.21 (2020-07-20)
+Facebook login, Facebook get user data, friends info. unity 适配.
+ZenSDK 2.5.19 (2020-07-17)
+ZenCore重构自定义iOS弹框, 增加unitywrapper 调用自定义iOS弹框.
+ZenSDK 2.5.17 (2020-07-16)
+FacebookSDK 降回 5.8.0 (等 Word 里的API兼容性问题解决后再升)
+ZenSDK 2.5.17 (2020-07-15)
+FacebookSDK 升级到7.1.1
+GoogleUtilities 指定6.6.0.
+ZenSDK 2.5.13 (2020-07-13)
+ZenTrackingHTTP 本地缓存最大限制存储 1000 个包
+Debug UI 修复，横屏模式Core Menu显示不全的问题
+Ad Config Loader API 新增 gameVersion 参数，适配服务器的基于版本过滤的功能
+FBBiddingKit 2.0 sdk updated to latest
+ApplovinMax Inter & RV 不会cache 超时，采用applovinMax 自己的超时处理逻辑
+iPad 上的Banner 高度应为 90
+默认 Privacy Policy Url 更替为新版: https://www.zenlifegames.com/privacy-policy
+在 ZenAd 初始化时自动调用 ZenTracking 初始化
+重构，使 ad show timeout 的保护逻辑在 AdInstance 内部进行处理
+ZenSDK 2.5.8 (2020-06-29)
+Fyber bug fix. (Sync 2.3.7)
+ZenSDK 2.5.7 (2020-06-28)
+Smaato SDK supported (Inter & RV & Banner), Version 21.3.3
+Verizon SDK supported (Inter & Banner), Version 1.6.0
+Fyber SDK supported (Inter & RV), Version 7.5.6
+Amazon Ad SDK supported.(Inter & Banner) 3.0.0
+Max adapter added: Smaato, Verizon, Fyber, Amazon
+ZenSDK 2.5.6
+Share Refactor
+ZenSDK 2.5.4 (2020-6-27)
+FBSDK => 5.9.0
+Pangle (ByteDance) => 3.0.0.2
+ZenSDK 2.5.3
+MIntegral 6.1.3 => 6.3.2 (MIntegral 使用 PlacementID & UnitID 两个ID， 对应 Adunit 中的 unitId => id 和 placmentId => secondaryId)
+修改DebugUI中显示 AdUnitId 的地方，增加对 secondaryId 的显示支持 (目前仅 MIntegral 会用到)
+ZenSDK 2.5.2
+1.Share Global all support.
+
+ZenSDK 2.5.1
+ApplovinMax Inter & RV 的 BI 中增加 三方AdUnitId 的参数
+ZenSDK 2.5.0
+支持 ApplovinMax
+Applovin iOS SDK 6.12.2 => 6.12.8
+AdColony iOS SDK 4.1.2 => 4.1.5
+Admob iOS SDK 7.55.1 => 7.60.0
+Chartboost iOS SDK 8.0.4 => 8.1.0, Chartboost New API adapt.
+Helium iOS SDK 1.1.0 => 2.0.0
+IronSource iOS SDK 6.8.7.0 => 6.16.3.0
+MIntegral iOS SDK 5.8.7 => 6.1.3
+将 ApplovinMax Adapter 的依赖添加到 AdColony, Admob, Chartboost, Facebook, Inmobi, IronSource, MIntegral, Unity, Vungle Adapters 中以便支持 ApplovinMax Mediation
+当用户同意 Policy 时， 将 UserConsent 同意的信息传递到广告三方SDK中
+重构 Ad DebugUI 的 Config 页面，增加选择 Config 功能，可用于调试和测试
+支持在调试面板中开关ZADDisableLoadAdConfigFromServer
+ZenSDK 2.4.4 (2020-06-15)
+同步了 2.3.6 中的功能到 2.4.4 上
+ZenSDK 2.4.3 (2020-06-12)
+同步了 2.3.2 中的功能到 2.4.3 上
+ZenSDK 2.4.2 (2020-06-09)
+Ad Config 中新增 Placement.minCacheCount ，只有当 cached instance 数量大于 minCacheCount，才需要比对已加载的 top priced instance 的 eCPM，默认为1
+FIX：当 Placement 为 disable的时候， hasAd 和 show 的行为不一致
+Debug UI 中，Placement Cell 中新增 minCacheCount
+Refactor: AdInstance handle isLoading / isLoaded state for cacheFailed in itself.
+ZenSDK 2.3.7 (2020-06-30)
+Update default privacy policy url to: https://www.zenlifegames.com/privacy-policy
+ZenSDK 2.3.6 (2020-06-16)
+Core: 增加 ShowPrivacyPolicy API，可弹出Webview，加载并展示当前最新Privacy Policy URL。
+ZenSDK 2.3.5 (2020-06-16)
+修复 UserConsent 弹版 AlertView 支持 Dark Mode
+修复 UserConsent 弹版在 320 宽度设备(iPhone SE等)上的宽度不合适的问题
+修复 promptUserConsent 在 US 地区，等待服务器返回结果时，因没设置超时时间，导致callback等待过久的问题，现设定为500ms超时
+UserConsent DebugUI，适配超时功能，增加了不会超时的弹出弹版按钮
+ZenSDK 2.3.4 (2020-06-16)
+修复：获取服务器的Region Code 失败时，调用 PromptUserConsent 无失败回调的问题。
+ZenSDK 2.3.3 (2020-06-15)
+ZENApp promptUserConsent 增加 callback ，用于说明是否真正弹出了板子， 无论成功失败，都会回调
+ZenSDK 2.3.2 (2020-06-12)
+UserConsent 支持外部输入已经获取过的 User Consent Url (目前的初始值是：https://zenjoy-res.tuanguwen.com/privacy/zenjoy-1.html )
+增加 ZENApp userConsent 接口的线程安全性
+ZenSDK 2.3.0 (2020-06-08)
+Facebook upgrade from 5.6.1 -> 5.8.0
+Ecpm compare logic ecpm >= highestEcpm
+去掉了BI Tracking 中的 adSdkVersion 和 tkSdkVersion，统一为 zensdkVersion
+ZenSDK 2.2.0 (2020-06-03)
+UserConsent Prompt API 新增支持Callback的版本，在用户点击同意时回调
+UserConsent 新增 LinkViewed BI 事件
+ZenSDK 2.1.2 (2020-05-30)
+重构UserConsent中的 AlertView 的使用方式，采用UIViewController管理弹出的 AlertView， 以避免出现可能的层级不正确问题。
+ZenSDK 2.1.0 (2020-05-27)
+客户端可以自定义 getPresentController , ZenSDK 中弹出任意 ViewController 时，都依靠该 Controller 呈现. (默认状态下取 当前 window 的 topMostViewController)
+ZenSDK 2.0.8 (2020-05-27)
+FIX: 修复 Production 模式下的 Privacy Policy API URL
+FIX: Privacy Policy API 使用 HTTPS URL
+ZenSDK 2.0.6 (2020-05-27)
+FIX: 修复 UserConsent 获取Privacy Policy Status的网络请求返回处理中的崩溃
+ZenSDK 2.0.5 (2020-05-26)
+FIX: Removed TwitterKit to get rid of warning on duplicated symbol(do not support twitter share for now.)
+ZenSDK 2.0.4 (2020-05-26)
+FIX: GDPR & CCPA 用户授权弹版在首次打开app，调用promptUserConsent之前尚未获取到服务器返回的情况下，也能弹出
+ZenSDK 2.0.3 (2020-05-22)
+升级穿山甲SDK 到 2.9.5.6 ，消除了一个老版本穿山甲SDK导致的缺少调用栈的崩溃。
+ZenSDK 2.0.0 (2020-05-22)
+整理统一了所有子库(ZenCore, ZenAd, ZenTracking, ZenSocial, ZenPush等)的版本，采用统一版本号。从 2.0.0 开始。
+修复了 ZenCore中 UserConsent 中部分语种字符串的错误（阿拉伯语的字符串之前不正确）
+新增 ZenSocialShareGlobal 支持Facebook, Twitter, Instagram, Whatsapp 等国际渠道的分享。
+ZenTracking 1.4.0, ZenAd 1.6.0, ZenPush 0.3.0, ZenSocial 1.2.0
+使用 ZenCore 0.8.0
+重构，将 Tracking Facebook 中对 Application Delegate 的依赖提出为独立的 ZenCoreDelegateFacebook 模块，与 Login / Share 共享依赖
+ZenSocial 重构，将 国内 和 国际的分享功能，分拆为 ZenSocialShareCN / ZenSocialShareGlobal， CN 基于友盟实现， Global 自行开发(Global尚未完成)
+ZenCore 0.8.0
+支持 CCPA 和 GDPR 所需的 UserConsent 弹窗
+ZenSocial 1.1.1
+Social init bug fixing, make platform init logic comaptible.
+ZenSocial 1.0.0
+支持 Facebook Login (通过类型 ZENSocialPlatformTypeZENFacebook 实现)
+ZenAd 1.5.5
+MIntegral 版本降回 5.8.7
+ZenAd 1.5.4
+UnityAds 3.4.2 api adaptation, fix unity inter & rv ads load time out issue
+ZenAd 1.5.3
+优化 Ad Partner 初始化的次序， admob & facebook 最优先并行初始化， 其他 Partner 串行初始化 （减轻初始化时刻对资源的占用）
+ZenAd 1.5.2
+AdInstance load timeout 保护机制对banner同样生效（保护 banner load 链不断）
+ZenAd 1.5.1
+Unity SDK 3.3.0 => 3.4.2
+MIntegral 5.8.7 => 6.1.3
+Applovin => 6.12.2
+vungle sdk => 6.5.3
+Banner 增加了 Unity partner
+Banner 增加了 mintegral partner
+Banner 增加了 inmobi partner
+ZenCore 0.6.0, ZenAd 1.5.0, ZenTracking 1.2.0, ZenSocial 0.1.0, ZenPush 0.1.0
+Ad Tracking Social Push 依赖的最低版本 ZenCore 升级到 0.6.0
+加密相关模块从 ZenAd 中移入 ZenCore 中，方便其他模块使用
+ZenCore - Production 模式下，可以被 ZenSDK Config Server 驱动打开 Debug View （方便调试）：使用该功能需要在设备上安装 ZenSDKSample (Global / CN都可），并打开 ZenSDK Config Server 页面。然后启动 App。
+ZenSDKSample 中新增 ZenSDK Config Server —— 可在 Production 模式下，驱动客户端打开 Debug View
+ZenAd 1.4.16, ZenTracking 1.1.13
+修复了 Ad - BI 漏发了 adsHTTP 渠道的 interstialshow / rewardedVideoshow / interstitialclicked / rewardedVideoclicked 事件
+重构了 ZenTracking 中 EventDispatcher 的工作逻辑，没有真正的事件发出的情况下，不会在 Event Logs 中留下记录
+ZenCore 0.5.2, ZenAd 1.4.15, ZenTracking 1.1.12, ZenSocial 0.0.23, ZenPush 0.0.30
+修复了 iPad 分享 Log 的崩溃问题
+InMobi SDK 升级到 9.0.6， 遵守 Apple 的要求，移除 UIWebView 的引用.
+ZenTracking 中的 Firebase 和 Facebook 会响应 setUserId API
+ZenAd 1.4.13
+Added customParmas to all ad lifcycle tracking events.
+ZenAd 1.4.12, ZenTracking 1.1.10
+ZenTracking 修复了 trackEvent 中因为Log输出参数问题导致的 crash
+ZenAd 1.4.12 => Use ZenTracking 1.1.10
+ZenAd 1.4.11
+Admob => 7.55.1, ref:https://developers.google.com/admob/ios/rel-notes
+ZenAd 1.4.10
+对各个 partner 初始化 及 创建 adInstance 的调用增加 @try @catch， 以防止来自某一个三方Partner 的异常导致整体崩溃
+ZenAd 1.4.9
+BI: 支持 Adjust Ad Impression 事件，用于在 Adjust 上统计 Ad Revenue，需要在 tracking_config.json 中配置相应的 eventToken
+ZenTracking 1.4.9
+DebugView: 支持观察 HTTPPackage Handler 队列的状态
+ZenAd 1.4.8
+增加了从 DebugView 中打开 Core => DebugView 的功能
+ZenTracking 1.1.8
+依赖 ZenCore 0.5.1
+增进 ZenTracking DebugView 的使用体验
+ZenCore 0.5.1
+支持在 UI Debug View 中修改 LogLevel
+ZenAd 1.4.4, ZenTracking 1.1.5 (2020.3.20)
+ZenAd 会发送 FB AdImpression & AdClick 标准事件
+ZenTracking 增加了 TutorialBegin, TutorialComplete, UnlockAchievement 标准事件。
+移除了 ZenAd 中对 AFNetworking 的依赖
+即便没有配置 tracking_config.json， 也不影响 Ad 本身的BI事件发送
+Vungle-iOS 升级到 6.5.2 (要求客户端设置支持 ios 9 设备及以上)
+ZenAd 使用 ZenTracking 提供的 setAdjustId & setUserId，方便Tracking
+ZenCore 0.4.0, ZenAd 1.4.0, ZenSocial 0.0.22, ZenPush 0.0.28, ZenTracking 1.1.0
+各个SDK 支持监听从 ZenCore 中派发的 AppDelegate callback。目前支持三个：
+(BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(nullable NSDictionary *)launchOptions API_AVAILABLE(ios(3.0));
+(BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary *)options API_AVAILABLE(ios(9.0)); // no equiv. notification. return NO if the application can't open for some reason
+(BOOL)application:(UIApplication *)application continueUserActivity:(NSUserActivity *)userActivity restorationHandler:(void(^)(NSArray> * _nullable restorableObjects))restorationHandler APIAVAILABLE(ios(8.0));
+需要客户端配合调用上述3个AppDelegate回调。
+ZenAd 1.3.6
+ZenAd 使用 adsHTTP 发送 BI Event，代替原先的模式
+Facebook Audience Network 升级到 5.6.1 (从 5.5.1 )
+ZenAd 需要依赖 ZenTracking ~> 1.0.5 和 ZenTrackingProviderHTTP ~> 1.0.5
+ZenAd 对 ZenCore 的依赖提升到 0.3.0
+ZenCore 0.3.0, ZenTracking 1.0.5
+ZenTracking 支持adjust, fb, firebase, clientHTTP, adsHTTP
+ZenTracking debugView 支持基本的Debug和调试功能。(查看当前注册的Provider，查看Config，查看EventLog， 查看 Log)
+ZenTrackingProviderFB 重命名为 ZenTrackingProviderFacebook
+ZenAd 1.3.4
+修复缺少 alib 依赖的问题
+修正Ad子库的名称 ZenAdCN => ZenAdConfigCN, ZenAdGlobal => ZenAdConfigGlobal
+ZenAd 1.3.2
+修改工程结构，采用 podspec 管理源码和依赖
+将 ZenAd 拆分成 ZenAd 核心库， ZenAdAdapter 库， 和 ZenAdCN / ZenAdGlobal 使用库
+ZenPush 0.0.28
+修改工程结构，采用 podspec 管理源码和依赖
+ZenSocial 0.0.21
+修改工程结构，采用 podspec 管理源码和依赖
+ZenTracking 1.0.1
+需要 ZenCore 0.2.1
+增加对 Facebook Analytics Tracking 的支持
+ZenAd 1.2.9
+请求AdConfig时判断 ZADDisableLoadAdConfigFromServer 标记。
+ZenAd 1.2.8
+ZenAdGlobal 加回了 ByteDance
+ZenAd 1.2.5
+ZenAdGlobal 移除了 ByteDance (只在 ZenAdCN 中支持)
+ZenAd 1.2.4
+Bytedance RV onAdClosed 回调 延迟 0.3 秒
+移除对 CoreLocation 的依赖
+ZenAd 1.2.3
+fix bug：过期的广告可能依然呆在缓存里的问题
+Small bug fix
+ZenAd 1.2.1
+ZenAd Debug UI 适配横屏模式的游戏
+DebugView -> Config 新增 Debug Info
+ZenAd 1.2.0
+ZenAdCN 新增支持 Applovin, MIntegral. (CN 支持: Admob, ByteDance, Applovin, Mintegral)
+ZenAdGlobal 新增支持 MIntegral
+ZenAd 1.1.0
+需要 ZenCore 0.1.8
+Ad 的 Log 底层替换为 ZenCore 中的 ZENLogTool
+ZenTracking 1.0.0
+支持 Adjust
+需要 ZenCore 0.1.7
+ZenAd 1.0.58
+移除了 ZenAd 内部的 MJExtension 库
+改为在 podspec 中指定对 MJExtension 的依赖
+ZenSocial 0.0.20
+移除了 当前还不支持的 TikTok SDK 依赖
+ZenAd 1.0.57
+Test Device 管理，删除的Device可以被存储到设备本地
+ZenAd 1.0.56
+增加 Config -> Partner 页中关于Partner可用状态的信息显示
+Sample 中增加 helium 的测试广告配置
+使用 ZenCore 0.0.14
+ZenPush 0.0.26
+使用 ZenCore 0.0.14
+ZenSocial 0.0.19
+修复LoginData里没存 AuthToken 的问题
+使用 ZenCore 0.0.14
+ZenAd 1.0.55
+支持自定义添加 test device (在 Debug View -> Config 页)
+查找测试设备ID的方法：
+在 Log 中查找 current device test hash ，可得 Facebook test device id
+在 "Console" Log 中查找 To get test ads on this device， 可得 Admob 测试设备ID （注意这个 log 不在ZenAd Log 中，只在 Console 中）
+ZenCore 0.0.14
+支持 Tracking 类型的 Module
+新增获取 Module 版本号的接口
+Debug View 里可查阅所有已注册的 Module 版本
+ZenAd 1.0.54
+FB Bidding 1.0 支持 RewardedVideo
+Helium 逻辑修改，不以 bidding 的逻辑模式来使用它 (Helium 暂不支持 RewardVideo - 因该SDK的RV播放后会立刻自动关闭 )
+新增 adreward, adclick BI 事件
+修复Bug: Bidding 逻辑Bug，因 AdTimer 而产生的潜在的死锁问题
+Chartboost (8.0.3 => 8.0.4)
+ZenAd 1.0.52
+FBRV 播放的Callback需要被发送到当前上下文之外，延迟回调
+ZenAd 1.0.51
+Adunit 支持 isSmartSeg 标志
+修复Ad Request增多的问题
+ZenAd 1.0.50
+支持服务器远程禁止特定设备使用特定平台的广告
+需要使用 0.0.12 版本的 ZenCore
+ZenAd 1.0.49
+adunit 中新增属性 autoRewardAfterSeconds (可配置)，用于 对播放超过N秒的 激励视频自动发出奖励 （有的广告平台可能延迟或看完视频广告也不发奖励）
+ZenAd 1.0.48
+穿山甲SDK 2.5.1.2 => 2.5.1.5 (Bug Fix)
+ZenAd 1.0.47
+Fix crash
+ZenAd 1.0.46
+Applovin SDK 升级 6.10.1 (6.9.5)
+ZenAd 1.0.45
+Bidding 逻辑重构
+ZenAd 需要依赖 ZenCore 0.0.11 (修复了 Singleton 的编译警告)
+Chartboost helium bidding SDK (1.1.0) 接入（目前只有 插屏)
+支持 bytedanceExpress 的 插屏 和 激励视频
+ZenAd 1.0.44
+Chartboost sdk 升级 (8.0.1 => 8.0.3)，支持 ios 13, 去除了苹果警告要求的 UIWebView. DETAIL.
+删掉了 AOL SDK. 因为MMAdSDK已经超过1年没有被维护了，不能很好的支持新的 iOS 系统。
+升级了 穿山甲 SDK (2.4.6.7 => 2.5.1.2)，修复了部分UI兼容性问题
+新增了 setAdTypeEnable 以及 setPlacementEnable 时候的Log
+ZenAd 1.0.43
+重构串行加载相关逻辑，和partner接口适配。
+Sample中增加了新的广告位chaininter, chainrv 测试串行加载逻辑。
+重构了ad加载前的预先判断逻辑。
+Log修改，打印了adid，广告组名字。
+重新适配了IronSource 广安接口。
+ZenAd 1.0.42
+Fix ZenAdGlobal deployment target iOS 9. (from iOS 10)
